@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("quest10")]
+[assembly: AssemblyTitle("quest10.1")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("quest10")]
+[assembly: AssemblyProduct("quest10.1")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("9682f161-e5a2-4976-a43f-2b0da8846b55")]
+[assembly: Guid("9585b3ef-b578-4e1b-a1c1-91e3981f4c5b")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //
