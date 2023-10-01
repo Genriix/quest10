@@ -59,9 +59,9 @@ namespace quest10._1
             address.Index = 123;
             address.Country = "Россия";
             address.City = "Воркута";
-            address.Street = "Лермонтова";
-            address.House = 23;
-            address.Apartment = 10;
+            address.Street = "Ленина";
+            address.House = 26;
+            address.Apartment = 19;
             Console.WriteLine($"Почтовый индекс: " + address.Index);
             Console.WriteLine($"Страна: " + address.Country);
             Console.WriteLine($"Город: " + address.City);
