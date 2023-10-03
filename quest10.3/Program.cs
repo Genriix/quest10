@@ -108,13 +108,7 @@ namespace quest10._3
             }
         }
         // Свойство поля author
-        public string Author
-        {
-            set
-            {
-                this.author.Content = value;
-            }
-        }
+        public string Author { set { this.author.Content = value; } }
     }
     internal class Program
     {
