@@ -25,10 +25,10 @@ namespace quest10._4
     }
     class Figure
     {
-        int number; // Приватная переменная для порядкового номера точки
+        int number; // Приватное поле для порядкового номера точки
         Point[] points; //Создаём множество из точек
-        string name; // Приватная переменная name
-        public string Name // Публичное поле Name, куда записываем приватную переменную
+        string name; // Приватное поле name
+        public string Name // Публичное свойство Name, куда записываем приватное поле
         {
             get { return name; }
             set { name = value; }
@@ -71,7 +71,7 @@ namespace quest10._4
             Console.Write($"Периметр фигуры равен равен: {perimeter}");
             return null;
         }
-        public Figure(string name)
+        public Figure(string name) // Пользовательский конструктор 
         {
             InitializeFigure();
         }
